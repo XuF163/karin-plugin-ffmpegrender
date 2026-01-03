@@ -1,0 +1,7 @@
+{
+  "yiyanApi": "https://api.yujn.cn/api/sjyy.php",
+  "ffmpegPath": "",
+  "ffmpegFontFile": "",
+  "ffmpegTimeoutMs": 30000,
+  "ffmpegLogCommand": false
+}

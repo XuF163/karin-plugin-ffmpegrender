@@ -1,0 +1,18 @@
+{
+  "width": 1067,
+  "height": 600,
+  "background": {
+    "color": "#00000000"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "src": "{{@(file || '').replace(/\\/g, '/')}}",
+      "x": 0,
+      "y": 0,
+      "width": 1067,
+      "height": 600,
+      "fit": "cover"
+    }
+  ]
+}

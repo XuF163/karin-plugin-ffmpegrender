@@ -1,0 +1,62 @@
+{
+  "width": 960,
+  "height": 540,
+  "background": {
+    "color": "#ffffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "src": "{{@(file || '').replace(/\\/g, '/')}}",
+      "x": 40,
+      "y": 60,
+      "width": 320,
+      "height": 420,
+      "fit": "cover"
+    },
+    {
+      "type": "text",
+      "text": "{{@(title || '').replace(/\\/g, '\\\\').replace(/\"/g, '\\\"').replace(/\r?\n/g, '\\n')}}",
+      "x": 390,
+      "y": 90,
+      "fontSize": 44,
+      "color": "#111111"
+    },
+    {
+      "type": "text",
+      "text": "{{@(subtitle || '').replace(/\\/g, '\\\\').replace(/\"/g, '\\\"').replace(/\r?\n/g, '\\n')}}",
+      "x": 390,
+      "y": 160,
+      "fontSize": 26,
+      "color": "#555555"
+    },
+    {
+      "type": "text",
+      "text": "{{@(tag || '').replace(/\\/g, '\\\\').replace(/\"/g, '\\\"').replace(/\r?\n/g, '\\n')}}",
+      "x": 390,
+      "y": 220,
+      "fontSize": 22,
+      "color": "#2b6cb0",
+      "box": {
+        "color": "#2b6cb033",
+        "border": 10
+      }
+    },
+    {
+      "type": "text",
+      "text": "{{@(desc || '').replace(/\\/g, '\\\\').replace(/\"/g, '\\\"').replace(/\r?\n/g, '\\n')}}",
+      "x": 390,
+      "y": 280,
+      "fontSize": 24,
+      "color": "#222222"
+    },
+    {
+      "type": "text",
+      "text": "{{@(footer || '').replace(/\\/g, '\\\\').replace(/\"/g, '\\\"').replace(/\r?\n/g, '\\n')}}",
+      "x": 40,
+      "y": 505,
+      "fontSize": 18,
+      "color": "#666666"
+    }
+  ]
+}
