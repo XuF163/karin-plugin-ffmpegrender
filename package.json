@@ -1,7 +1,7 @@
 {
   "name": "karin-plugin-ffmpegrender",
-  "version": "1.0.0",
-  "author": "shijin",
+  "version": "0.0.2",
+  "author": "429",
   "type": "module",
   "description": "karin plugin template",
   "homepage": "https://github.com/KarinJS/karin",
