@@ -1,16 +1,16 @@
 {
   "name": "karin-plugin-ffmpegrender",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "429",
   "type": "module",
   "description": "karin plugin template",
-  "homepage": "https://github.com/KarinJS/karin",
+  "homepage": "https://github.com/XuF163/karin-plugin-ffmpegrender",
   "bugs": {
-    "url": "https://github.com/KarinJS/karin/issues"
+    "url": "https://github.com/XuF163/karin-plugin-ffmpegrender/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KarinJS/karin.git"
+    "url": "git+https://github.com/XuF163/karin-plugin-ffmpegrender.git"
   },
   "scripts": {
     "app": "node lib/app.js",
